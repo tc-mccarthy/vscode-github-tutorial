@@ -24,6 +24,22 @@ body {
   font-size: 16px;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container.photo {
+  max-width: 1200px;
+  padding: 0;
+}
+
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
